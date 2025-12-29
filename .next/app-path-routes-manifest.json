@@ -1,0 +1,16 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/assessment/page": "/assessment",
+  "/bioalign/page": "/bioalign",
+  "/biobrain-studio/page": "/biobrain-studio",
+  "/contact/page": "/contact",
+  "/digital-twin/page": "/digital-twin",
+  "/faq/page": "/faq",
+  "/insights/page": "/insights",
+  "/lifescript/page": "/lifescript",
+  "/neurosleep/page": "/neurosleep",
+  "/page": "/",
+  "/programs/page": "/programs"
+}

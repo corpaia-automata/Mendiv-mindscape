@@ -1,0 +1,16 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/assessment/page": "app/assessment/page.js",
+  "/bioalign/page": "app/bioalign/page.js",
+  "/biobrain-studio/page": "app/biobrain-studio/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/digital-twin/page": "app/digital-twin/page.js",
+  "/faq/page": "app/faq/page.js",
+  "/insights/page": "app/insights/page.js",
+  "/lifescript/page": "app/lifescript/page.js",
+  "/neurosleep/page": "app/neurosleep/page.js",
+  "/page": "app/page.js",
+  "/programs/page": "app/programs/page.js"
+}
