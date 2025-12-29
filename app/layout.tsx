@@ -17,6 +17,9 @@ const cormorant = Cormorant_Garamond({
   display: "swap",
 })
 
+// Force SSR mode - prevent static optimization
+export const dynamic = "force-dynamic"
+
 export const metadata: Metadata = {
   title: "Mendiv - Your Next Chapter | Life Engineering Platform",
   description:
