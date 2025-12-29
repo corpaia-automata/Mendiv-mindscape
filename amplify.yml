@@ -7,6 +7,9 @@ frontend:
     build:
       commands:
         - npm run build
+        # Remove source maps to reduce build size
+        - find .next -name "*.map" -type f -delete || true
+        - find .next/server -name "*.map" -type f -delete || true
   artifacts:
     baseDirectory: .next
     files:
