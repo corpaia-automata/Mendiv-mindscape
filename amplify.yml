@@ -10,7 +10,19 @@ frontend:
   artifacts:
     baseDirectory: .next
     files:
-      - '**/*'
+      # Required manifest files
+      - 'required-server-files.json'
+      - 'BUILD_ID'
+      - 'routes-manifest.json'
+      - 'build-manifest.json'
+      - 'prerender-manifest.json'
+      - 'app-path-routes-manifest.json'
+      - 'images-manifest.json'
+      - 'fallback-build-manifest.json'
+      # Server-side code (essential for SSR)
+      - 'server/**'
+      # Static assets
+      - 'static/**'
   cache:
     paths:
       - node_modules/**/*
