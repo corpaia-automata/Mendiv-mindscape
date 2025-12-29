@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "/",
-    title: "Mendiv - Your Next Chapter | Life Engineering Platform",
+    title: "Mendiv - Your Next Chapter",
     description:
       "Engineering better health, clarity, and longevity through biology, mind, and environment. A premium health intelligence platform for high-performing professionals.",
     siteName: "Mendiv",
