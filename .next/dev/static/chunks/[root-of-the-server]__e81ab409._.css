@@ -739,10 +739,6 @@
     padding-block: 0;
   }
 
-  ::-webkit-calendar-picker-indicator {
-    line-height: 1;
-  }
-
   :-moz-ui-invalid {
     box-shadow: none;
   }
@@ -819,6 +815,10 @@
 
   .relative {
     position: relative;
+  }
+
+  .static {
+    position: static;
   }
 
   .inset-0 {
@@ -3353,16 +3353,16 @@
   }
 
   @media (min-width: 48rem) {
-    .md\:text-lg {
-      font-size: var(--text-lg);
-      line-height: var(--tw-leading, var(--text-lg--line-height));
+    .md\:text-sm {
+      font-size: var(--text-sm);
+      line-height: var(--tw-leading, var(--text-sm--line-height));
     }
   }
 
   @media (min-width: 48rem) {
-    .md\:text-sm {
-      font-size: var(--text-sm);
-      line-height: var(--tw-leading, var(--text-sm--line-height));
+    .md\:text-xl {
+      font-size: var(--text-xl);
+      line-height: var(--tw-leading, var(--text-xl--line-height));
     }
   }
 

@@ -4,27 +4,27 @@ import Image from "next/image";
 
 const founders = [
   {
-    name: "Mr. OA Vahab",
+    name: "Mr. OA VAHAB",
     role: "Managing Director, Tree G Group",
     img: "/founders/oavahab.jpg",
   },
   {
-    name: "Dr. Muhammed Hussain KM",
+    name: "Dr. MUHAMMED HUZAIN KM",
     role: "MBBS, MMST (IIT Kharagpur)",
     img: "/founders/drhuzain.jpg",
   },
   {
     name: "Mr. SALEEQUE MP",
-    role: "AI Consultant | DeepTech Architect",
+    role: "DeepTech AI Entrepreneur",
     img: "/founders/saleeque.png",
   },
   {
-    name: "Dr. Abdussalam OK",
+    name: "Mr. ASLAM SIDIQ",
     role: "M.Phil Clinical Psychology",
     img: "/founders/aslam.jpg",
   },
   {
-    name: "Mr. Aslam Sidheek",
+    name: "Dr. ABDUSSALAM OK",
     role: "MBBS (AIIMS), MD Psychiatry (NIMHANS)",
     img: "/founders/abdusalam.png",
   },
@@ -72,7 +72,7 @@ export default function ExpandingFounderStrip() {
               </div>
 
               {/* Name */}
-              <h3 className="text-black text-base md:text-lg font-semibold mb-1">
+              <h3 className="text-black text-lg md:text-xl font-bold mb-1">
                 {founder.name}
               </h3>
 
