@@ -105,10 +105,7 @@ export const metadata: Metadata = {
         type: "image/png",
         sizes: "any",
       },
-
     ],
-    apple: "/apple-icon.png",
-    shortcut: "/favicon.png",
   },
   verification: {
     // Add your verification codes here when available
