@@ -11,7 +11,7 @@ const founders = [
   {
     name: "Dr. MUHAMMED HUZAIN KM",
     role: "MBBS, MMST (IIT Kharagpur)",
-    img: "/founders/drhuzain.jpg",
+    img: "/founders/drhuzain.png",
   },
   {
     name: "Mr. SALEEQUE MP",
